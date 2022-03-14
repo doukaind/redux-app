@@ -27,7 +27,6 @@ export const SongList = (props: any) => {
 };
 
 const mapStateToProps = (state: any) => {
-  console.log(state);
   return { songs: state.songs };
 };
 

@@ -5,7 +5,7 @@ export const SongDetail = ({ song }: any) => {
   if (!song) {
     return <div>Select a song</div>;
   }
-  console.log(song);
+
   return (
     <div>
       <h3>Details for</h3>
